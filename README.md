@@ -1,6 +1,6 @@
-# P1_Komnum_B5
+# P2_Komnum_B5
 
-**Praktikum 1 Komputasi Numerik**  
+**Praktikum 2 Komputasi Numerik**  
 **Kelas Komputasi Numerik (B)**
 
 **Kelompok 5**
