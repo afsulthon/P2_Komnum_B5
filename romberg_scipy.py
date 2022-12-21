@@ -1,11 +1,9 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy import integrate
 
-def f(x):
-  return np.exp(x**2) + 2*x
+function = input("Masukkan fungsi yang diinginkan:\nf(x) = ")
+f = lambda x: eval(function)
+a = float(input("Masukkan batas bawah: "))
+b = float(input("Masukkan batas atas: "))
 
-x = input()
-y = input()
-
-print(x, y)
+result = integrate.romberg(f, a, b, show=True)
