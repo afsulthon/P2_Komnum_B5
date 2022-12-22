@@ -45,7 +45,7 @@ $$
 R_{j,k} = {4^kR_{j,k-1} - R_{j-1,k-1} \over 4^k -1}
 $$
 
-untuk $2<=k<=j$, dengan nilai awal ($R_{j,1}$) adalah hasil integrasi Trapezoidal.
+untuk $2<=k<=j$, dengan nilai awal $R_{j,1}$ adalah hasil integrasi Trapezoidal.
 
 Berikut adalah langkah penyelesaian integrasi dengan metode Romberg:
 
